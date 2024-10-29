@@ -20,9 +20,9 @@ const Home: NextPage = () => (
         	<h1 className={styles.title}>
             	Welcome to <span className={styles.arbitrum}>Arbitrum</span> Forums
         	</h1>
-			<h3>
+			{/* <h3>
 				Coded by Harsh 
-			</h3>
+			</h3> */}
         	<ConnectButton label="Sign In" />
         	<br />
         	<p className={styles.description}>
@@ -40,13 +40,9 @@ const Home: NextPage = () => (
 
     	<footer className={styles.footer}>
         	<p>
-            	Step into Arbitrum campaign, brought to you by{" "}
-            	<a href="https://stackup.dev" target="_blank" rel="noreferrer">
-                	StackUp
-            	</a>{" "}
-            	❤️ in partnership with{" "}
-            	<a href="https://arbitrum.io" rel="noreferrer" target="_blank">
-                	Arbitrum!
+            	Step into Arbitrum Forum , brought to you by{" "}
+            	<a href="https://github.com/HarshKochar9008/" target="_blank" rel="noreferrer">
+                	Harsh
             	</a>{" "}
             	💙🧡
         	</p>
