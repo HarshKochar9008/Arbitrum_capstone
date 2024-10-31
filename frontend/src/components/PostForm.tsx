@@ -173,7 +173,7 @@ const PostForm = ({ account }: { account: Address | undefined }) => {
 			{account !== undefined && (
 				<div className={styles.cardPlain}>
 					<div className={styles.home}>
-						<h3>
+						<h3 className={styles.under}>
 							<Link href="/">Go back to main page</Link>{" "}
 							<Link href={"/comments"}>See all comments</Link>
 						</h3>
@@ -245,7 +245,7 @@ const PostForm = ({ account }: { account: Address | undefined }) => {
 										<FontAwesomeIcon
 											icon={faWarning}
 											color={!post.spoil ? "#359AECff" : "#FF5D64ff"}
-										/>{" "}
+										/>{" "}{" "}
 										Spoiler
 									</button>
 								</label>
@@ -257,7 +257,7 @@ const PostForm = ({ account }: { account: Address | undefined }) => {
 										<FontAwesomeIcon
 											icon={faPoll}
 											color={!pollElementVisible ? "#359AECff" : "#FF5D64ff"}
-										/>{" "}
+										/>{" "}{" "}
 										{isPollSubmitting ? "Generating poll..." : "Poll"}
 									</button>
 								</label>
@@ -266,7 +266,7 @@ const PostForm = ({ account }: { account: Address | undefined }) => {
 									<FontAwesomeIcon
 										icon={faPencil}
 										color={!isPostSubmitting ? "#359AECff" : "#FF5D64ff"}
-									/>{" "}
+									/>{" "}{" "}
 									{isPostSubmitting ? "Submitting..." : "Submit post"}
 								</button>
 							</div>

@@ -4,9 +4,9 @@
 	text-align: left;
 	text-wrap: pretty;
 	word-break: break-word;
-	/* background: -moz-linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
+	background: -moz-linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
 background: -webkit-linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
-background: linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%); */
+background: linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
 background: content-box repeating-conic-gradient(#041828ff 0.0002% 0.00195%, #B24A4Aff 0.002% 0.0015%);
 	color: #FFFFFFdd;
 	text-decoration: none;
@@ -60,7 +60,7 @@ background: content-box repeating-conic-gradient(#041828ff 0.0002% 0.00195%, #B2
 }
 
 .vote button:hover{
-	box-shadow: rgb(181, 89, 243) 0 0 5px 2px;
+	box-shadow: rgb(89, 156, 243) 0 0 5px 2px;
 }
 
 
@@ -81,7 +81,7 @@ background: content-box repeating-conic-gradient(#041828ff 0.0002% 0.00195%, #B2
 
 .card:hover {
 	/* box-shadow: #99CAFB 0 0 30px 2px; */
-	box-shadow: rgb(243, 89, 89) 0 0 25px 2px;
+	box-shadow: rgb(89, 156, 243) 0 0 15px 1px;
 transition: background 2s, box-shadow 1s;
 }
 
@@ -94,7 +94,6 @@ transition: background 2s, box-shadow 1s;
 	justify-content: center;
 	align-items: center;
 }
-
 .form button {
 	font-family: Gilroy;
 	max-width: 300px;
@@ -106,9 +105,8 @@ transition: background 2s, box-shadow 1s;
 }
 
 .form button:hover {
-	box-shadow: rgb(243, 89, 89) 0 0 5px 2px;
+	box-shadow: rgb(73, 125, 255) 0 0 5px 2px;
 }
-
 .form textarea {
 	width: inherit;
 	height: 200px;
@@ -140,7 +138,7 @@ transition: background 2s, box-shadow 1s;
 
 .form textarea:focus, .form input[type="text"]:focus {
 	outline: none;
-	box-shadow: rgb(243, 89, 89) 0 0 5px 2px;
+	box-shadow: rgb(89, 156, 243) 0 0 5px 2px;
 }
 
 .bottomPrimary {
@@ -163,10 +161,13 @@ transition: background 2s, box-shadow 1s;
 }
 
 .address {
-	color: rgb(243, 89, 89);
-	text-shadow: 2px rgb(243, 89, 89);
+	color: rgb(250, 236, 156);
+	text-shadow: 2px rgb(89, 156, 243);
 }
 
+.under{
+	text-decoration: none;
+}
 .description {
 	margin: 0 0 1em;
 	overflow: hidden;
@@ -182,4 +183,5 @@ transition: background 2s, box-shadow 1s;
 
 .home {
 	margin-bottom: 1rem;
+	text-decoration: none;
 }

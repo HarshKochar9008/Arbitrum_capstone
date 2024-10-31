@@ -36,17 +36,14 @@ const Home: NextPage = () => (
                 	</>
             	)}
         	</p>
-    	</main>
-
-    	<footer className={styles.footer}>
-        	<p>
+			<p className={styles.link}>
             	Step into Arbitrum Forum , brought to you by{" "}
             	<a href="https://github.com/HarshKochar9008/" target="_blank" rel="noreferrer">
                 	Harsh
             	</a>{" "}
-            	💙🧡
+            	💙🧡	
         	</p>
-    	</footer>
+    	</main>
 	</div>
 );
 
